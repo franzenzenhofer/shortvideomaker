@@ -1,0 +1,30 @@
+name = "shortvideomaker"
+main = "src/worker.js"
+compatibility_date = "2025-07-26"
+
+# Static assets configuration (modern Workers approach)
+[assets]
+directory = "./dist"
+not_found_handling = "single-page-application"
+
+# KV namespace for storing video projects  
+[[kv_namespaces]]
+binding = "VIDEO_PROJECTS"
+id = "a1b2c3d4e5f6789012345678901234567"
+preview_id = "b2c3d4e5f67890123456789012345678"
+
+# Environment variables
+[vars]
+ENVIRONMENT = "production"
+MAX_FILE_SIZE = "500000000"  # 500MB max file size
+MAX_VIDEO_DURATION = "600"    # 10 minutes max
+
+# Routes
+[[routes]]
+pattern = "shortvideomaker.franzai.com/*"
+zone_name = "franzai.com"
+
+# Dev configuration
+[dev]
+port = 8787
+local_protocol = "http"
