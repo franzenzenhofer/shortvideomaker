@@ -1,6 +1,6 @@
 {
   "name": "shortvideomaker",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Professional mobile-first short video maker for music videos - loops video to audio length with seamless transitions",
   "type": "module",
   "scripts": {

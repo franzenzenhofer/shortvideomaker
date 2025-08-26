@@ -7,11 +7,11 @@ compatibility_date = "2025-07-26"
 directory = "./dist"
 not_found_handling = "single-page-application"
 
-# KV namespace for storing video projects  
-[[kv_namespaces]]
-binding = "VIDEO_PROJECTS"
-id = "a1b2c3d4e5f6789012345678901234567"
-preview_id = "b2c3d4e5f67890123456789012345678"
+# KV namespace for storing video projects (commented out for now)
+# [[kv_namespaces]]
+# binding = "VIDEO_PROJECTS"
+# id = "a1b2c3d4e5f6789012345678901234567"
+# preview_id = "b2c3d4e5f67890123456789012345678"
 
 # Environment variables
 [vars]
