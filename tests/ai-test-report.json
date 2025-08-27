@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-08-27T10:25:32.457Z",
+  "site": "https://shortvideomaker.franzai.com",
+  "testsRun": 6,
+  "status": "COMPLETED",
+  "aiAnalysisComplete": true,
+  "screenshotsGenerated": [
+    "ai-analysis-homepage.png",
+    "ai-user-journey.png",
+    "ai-mobile-ux.png"
+  ]
+}
